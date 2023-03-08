@@ -13,7 +13,7 @@
       </q-toolbar>
 
       <div class="q-px-lg q-pt-xl q-mb-md">
-        <div class="text-h3">Kitty carousel</div>
+        <div class="text-h3">Todo list</div>
         <div class="text-subtitle">{{ todaysDate }}</div>
       </div>
       <q-img class="header-image absolute-top" src="../assets/img1.png"></q-img>
@@ -56,6 +56,22 @@
 
             <q-item-section> About </q-item-section>
           </q-item>
+
+          <q-item to="/contacts" exact clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="contacts" />
+            </q-item-section>
+
+            <q-item-section> contacts </q-item-section>
+          </q-item>
+
+          <q-item to="/kitties" exact clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="pets" />
+            </q-item-section>
+
+            <q-item-section> Kitties </q-item-section>
+          </q-item>
         </q-list>
       </q-scroll-area>
 
@@ -65,7 +81,7 @@
             <img src="../assets/avatar.jpg" />
           </q-avatar>
           <div class="text-weight-bold">Мотовилов Иван</div>
-          <div>@firttrule</div>
+          <div>firttrule@mail.ru</div>
         </div>
       </q-img>
     </q-drawer>

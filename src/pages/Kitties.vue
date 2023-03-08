@@ -1,13 +1,6 @@
 <template>
-  <q-page class="flex flex-center" style="flex-direction: column">
-    <div>
-      <img
-        alt="Cute kitty"
-        src="../assets/cat1.jpg"
-        style="width: 200px; height: 200px"
-      />
-    </div>
-
+  <q-page class="q-pa-lg">
+    <h5>Kitties carousel</h5>
     <div class="q-pa-md">
       <q-carousel
         animated
