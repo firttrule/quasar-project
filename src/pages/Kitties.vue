@@ -8,7 +8,7 @@
         arrows
         navigation
         infinite
-        style="width: 400px; height: 400px"
+        style="max-width: 300px; max-height: 600px"
       >
         <q-carousel-slide :name="1" img-src="../assets/cat2.jpg" />
         <q-carousel-slide :name="2" img-src="../assets/cat3.png" />

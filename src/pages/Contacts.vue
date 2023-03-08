@@ -6,9 +6,9 @@
       pariatur.
     </p>
     <div class="row">
-      <p class="col">+7(123)456-78-90</p>
-      <p class="col">yourmail@mail.ru</p>
-      <p class="col">@telegram</p>
+      <p class="q-pa-xs">+7(123)456-78-90</p>
+      <p class="q-pa-xs">yourmail@mail.ru</p>
+      <p class="q-pa-xs">@telegram</p>
     </div>
   </q-page>
 </template>
