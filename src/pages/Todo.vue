@@ -60,7 +60,7 @@ export default {
       tasks: [
         {
           title: "hello",
-          done: true,
+          done: false,
         },
         {
           title: "hello2",
